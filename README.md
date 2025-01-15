@@ -1,5 +1,5 @@
 # Solana Trading Bot v1
-## Contact
+
 [Telegram](https://t.me/bitfancy)
 
 The Solana Trading Bot is a software tool designed to automate the buying and selling of tokens on the Solana blockchain.
