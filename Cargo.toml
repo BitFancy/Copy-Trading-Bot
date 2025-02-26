@@ -7,32 +7,32 @@ edition = "2021"
 dotenv = "0.15"
 chrono = "0.4.38"
 tokio = { version = "1.38.0", features = ["full"] }
-solana-sdk = 
-solana-client = 
-solana-account-decoder = 
-solana-transaction-status = 
+solana-sdk = "1.14.0"
+solana-client = "1.14.0"
+solana-account-decoder = "1.14.0"
+solana-transaction-status = "1.14.0"
 spl-token = { version = "4.0.0", features = ["no-entrypoint"] }
 spl-token-2022 = { version = "0.9.0", features = ["no-entrypoint"] }
 spl-associated-token-account = { version = "2.2.0", features = [
     "no-entrypoint",
 ] }
 spl-token-client = "=0.7.1"
-amm-cli = 
-common = 
+amm-cli = "0.1.0" # Assuming this is a custom or less common package
+common = "0.1.0" # Assuming this is a custom or less common package
 anyhow = "1.0.53"
 serde = "1.0.203"
 serde_json = "1.0.117"
 clap = { version = "4.5.7", features = ["derive"] }
-raydium_amm = 
-jito-json-rpc-client = 
-anchor-lang = 
+raydium_amm = "0.1.0" # Assuming this is a custom or less common package
+jito-json-rpc-client = "0.1.0" # Assuming this is a custom or less common package
+anchor-lang = "0.25.0"
 bytemuck = "1.21.0"
 indicatif = "0.17.8"
 rand = "0.8.5"
 tracing = "0.1.40"
 futures-util = "0.3.30"
-tokio-tungstenite = 
-tokio-stream = 
+tokio-tungstenite = "0.22.0"
+tokio-stream = "0.1.10"
 borsh = { version = "1.5.3" }
 borsh-derive = "1.5.3"
 solana-transaction-status-client-types = "=2.1.0"
