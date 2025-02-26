@@ -17,13 +17,15 @@ spl-associated-token-account = { version = "2.2.0", features = [
     "no-entrypoint",
 ] }
 spl-token-client = "=0.7.1"
-amm-cli = "0.1.0" # Assuming this is a custom or less common package
-common = "0.1.0" # Assuming this is a custom or less common package
+common = { git = "https://github.com/raydium-io/raydium-library" }
+amm-cli = { git = "https://github.com/raydium-io/raydium-library" }
 anyhow = "1.0.53"
 serde = "1.0.203"
 serde_json = "1.0.117"
 clap = { version = "4.5.7", features = ["derive"] }
-raydium_amm = "0.1.0" # Assuming this is a custom or less common package
+raydium_amm = { git = "https://github.com/raydium-io/raydium-amm", default-features = false, features = [
+    "client",
+] }
 jito-json-rpc-client = "0.1.0" # Assuming this is a custom or less common package
 anchor-lang = "0.25.0"
 bytemuck = "1.21.0"
