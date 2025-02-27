@@ -26,7 +26,7 @@ clap = { version = "4.5.7", features = ["derive"] }
 raydium_amm = { git = "https://github.com/raydium-io/raydium-amm", default-features = false, features = [
     "client",
 ] }
-jito-json-rpc-client = "0.1.0" # Assuming this is a custom or less common package
+jito-json-rpc-client = { git = "https://github.com/jito-labs/json-rpc-client", package = "jito-block-engine-json-rpc-client"}
 anchor-lang = "0.29.0"
 bytemuck = "1.21.0"
 indicatif = "0.17.8"
