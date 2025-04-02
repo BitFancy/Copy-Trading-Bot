@@ -52,7 +52,6 @@ Update the `ENDPOINT` and `WSS_ENDPOINT` in your config:
 ```ts
 const ENDPOINT = "https://mainnet.helius-rpc.com/?api-key=xxx";
 const WSS_ENDPOINT = "wss://atlas-mainnet.helius-rpc.com/?api-key=xxx";
-const TARGET = "YOUR_API_TOKEN";
 ```
 
 4️⃣ **Run the Bot:**
