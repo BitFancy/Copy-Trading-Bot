@@ -9,7 +9,7 @@ chrono = "0.4.38"
 tokio = { version = "1.38.0", features = ["full"] }
 solana-sdk = "1.16.27"
 solana-client = "1.16.27"
-solana-account-decoder = "1.16.27"
+solana-account-decoder = "^1.16"
 solana-transaction-status = "1.16.27"
 spl-token = { version = "4.0.0", features = ["no-entrypoint"] }
 spl-token-2022 = { version = "0.9.0", features = ["no-entrypoint"] }
