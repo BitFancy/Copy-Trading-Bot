@@ -12,6 +12,19 @@ Welcome to the **Solana Copy Trading Bot**! This bot enables real-time tracking 
 
 ---
 
+## 🖥️ Recommended Infrastructure: Trading VPS
+
+For optimal bot performance and ultra-low latency, consider using a high-speed VPS tailored for trading like [Tradox VPS](https://tradoxvps.com/). Tradox provides:
+
+- High-frequency trading optimized servers  
+- Low-latency network connectivity to major exchanges  
+- Dedicated CPU and high RAM for uninterrupted bot operation  
+- Secure and reliable 24/7 uptime  
+
+A robust VPS setup ensures your Solana Copy Trading Bot runs smoothly with minimal delay, boosting your chances in fast crypto markets.
+
+---
+
 ## 🎯 **Example Transactions**
 
 - **Source Transaction:** [View on Solscan](https://solscan.io/tx/2nNc1DsGxGoYWdweZhKQqnngfEjJqDA4zxnHar2S9bsAYP2csbLRgMpUmy68xuG1RaUGV9xb9k7dGdXcjgcmtJUh)
